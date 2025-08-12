@@ -81,9 +81,9 @@ The design uses a consistent and readable typography system:
 
 #### Color Styles
 
-- <b>Primary</b>: #34967C (A vibrant zomp used for main calls to action, buttons, and key interactive elements.)
-- <b>Secondary</b>: #161117 (A neutral licorice for the footer.)
-- <b>Accent</b>: #FFA800 (A green used for subtle accents and positive feedback)
+- <b>Primary</b>: #34967C (A shade of teal colour used for main calls to action, buttons, and key interactive elements.)
+- <b>Secondary</b>: #161117 (A neutral licorice colour for the footer.)
+- <b>Accent</b>: #FFA800 (A vibrant orange colour used for subtle accents and positive feedback)
 - <b>Shimmer</b>: #EBEBEB
 - <b>Dark</b>: #343A40
 - <b>Light</b>: #F8F9FA
