@@ -150,7 +150,7 @@ This component displays individual reviews left by guests on the "Listing Detail
 - <b>Rating</b>: The star rating given by the reviewer.
 - <b>Review Text</b>: The full text of the review.
 
-### Project Roles and Responsibilites
+### Project Roles and Responsibilities
 
 #### 1. Business analyst (BA)
 
