@@ -124,6 +124,42 @@ This table stores URLs to images of the properties.
 
 ## Feature Breakdown
 
+### 1. API Documentation
+
+- <b>OpenAPI Standard</b>: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+- <b>Django REST Framework</b>: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+- <b>GraphQL</b>: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+### 2. User Authentication
+
+- <b>Endpoints</b>: `/users/`, `/users/{user_id}/`
+- <b>Features</b>: Register new users, authenticate, and manage user profiles.
+
+### 3. Property Management
+
+- <b>Endpoints</b>: `/properties/`, `/properties/{property_id}/`
+- <b>Features</b>: Create, update, retrieve, and delete property listings.
+
+### 4. Booking System
+
+- <b>Endpoints</b>: `/bookings/`, `/bookings/{booking_id}/`
+- <b>Features</b>: Make, update, and manage bookings, including check-in and check-out details.
+
+### 5. Payment Processing
+
+- <b>Endpoints</b>: `/payments/`
+- <b>Features</b>: Handle payment transactions related to bookings.
+
+### 6. Review System
+
+- <b>Endpoints</b>: `/reviews/`, `/reviews/{review_id}/`
+- <b>Features</b>: Post and manage reviews for properties.
+
+### 7. Database Optimizations
+
+- <b>Indexing</b>: Implement indexes for fast retrieval of frequently accessed data.
+- <b>Caching</b>: Use caching strategies to reduce database load and improve performance.
+
 ## API Security
 
 1. <b>Authentication</b>: Verification of the identity of users in the system.
