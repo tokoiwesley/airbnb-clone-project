@@ -4,17 +4,41 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 ## Project Goals
 
-- Learn to implement responsive UI/UX designs
-- Understand how to structure a complex web application
-- Practice working in a team with defined roles
-- Develop skills in component-based frontend architecture
-- Learn best practices for web application development
+### Frontend
 
-## Tech Stack
+1. Learn to implement responsive UI/UX designs
+2. Understand how to structure a complex web application
+3. Practice working in a team with defined roles
+4. Develop skills in component-based frontend architecture
+5. Learn best practices for web application development
+
+### Backend
+
+1. <b>User Management</b>: Implement a secure system for user registration, authentication, and profile management.
+2. <b>Property Management</b>: Develop features for property listing creation, updates, and retrieval.
+3. <b>Booking System</b>: Create a booking mechanism for users to reserve properties and manage booking details.
+4. <b>Payment Processing</b>: Integrate a payment system to handle transactions and record payment details.
+5. <b>Review System</b>: Allow users to leave reviews and ratings for properties.
+6. <b>Data Optimization</b>: Ensure efficient data retrieval and storage through database optimizations.
+
+## Technology Stack
+
+### Frontend
 
 - <b>Frontend</b>: HTML, CSS, JavaScript (React or similar framework)
 - <b>Version Control</b>: Git and GitHub
 - <b>Design Tools</b>: Figma for UI/UX design
+
+### Backend
+
+- <b>Django</b>: A high-level Python web framework used for building the RESTful API.
+- <b>Django REST Framework</b>: Provides tools for creating and managing RESTful APIs.
+- <b>PostgreSQL</b>: A powerful relational database used for data storage.
+- <b>GraphQL</b>: Allows for flexible and efficient querying of data.
+- <b>Celery</b>: For handling asynchronous tasks such as sending notifications or processing payments.
+- <b>Redis</b>: Used for caching and session management.
+- <b>Docker</b>: Containerization tool for consistent development and deployment environments.
+- <b>CI/CD Pipelines</b>: Automated pipelines for testing and deploying code changes.
 
 ## Team Roles
 
@@ -63,3 +87,11 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 - Facilitates cooperation between development and operations teams.
 - Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery.
+
+## Database Design
+
+## Feature Breakdown
+
+## API Security
+
+## CI/CD Pipeline
