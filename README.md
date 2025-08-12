@@ -167,3 +167,19 @@ This table stores URLs to images of the properties.
 3. <b>Rate limiting</b>: Controls the number of requests a client can make to the system API within a specific timeframe.
 
 ## CI/CD Pipeline
+
+A <b>CI/CD pipeline</b> (Continuous Integration / Continuous Deployment) is an automated workflow that takes code from development through testing and into production with minimal manual intervention.
+
+For this project, CI/CD is important because it:
+
+- <b>Ensures code quality</b> — automatically runs tests and linting on every commit to catch bugs early.
+- <b>Speeds up delivery</b> — new features and fixes get deployed quickly without lengthy manual steps.
+- <b>Reduces errors in deployment</b> — automation ensures consistent build and deployment processes.
+- <b>Supports collaboration</b> — multiple developers can contribute without breaking the app.
+
+Possible tools for an Airbnb clone project:
+
+- <b>Version Control & Automation</b>: GitHub Actions, GitLab CI, or Jenkins (to run builds, tests, and deploy scripts).
+- <b>Containerization</b>: Docker (to package app dependencies consistently).
+- <b>Orchestration / Deployment</b>: Kubernetes, Docker Compose, or AWS ECS/Fargate.
+- <b>Hosting</b>: AWS, Azure, Google Cloud, or Vercel/Netlify (for the frontend).
