@@ -90,8 +90,44 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 ## Database Design
 
+### Users
+
+This table stores user information, including hosts and guests.
+
+### Properties
+
+This table holds details about each property listing.
+
+### Bookings
+
+This table tracks all property bookings made by users.
+
+### Payments
+
+This table records all payment transactions related to bookings.
+
+### Reviews
+
+This table stores user reviews and ratings for properties.
+
+### Property Amenities
+
+This table links properties to their available amenities such as WiFi, parking etc.
+
+### Amenities
+
+This table is a lookup table for all possible amenities.
+
+### Property Images
+
+This table stores URLs to images of the properties.
+
 ## Feature Breakdown
 
 ## API Security
+
+1. <b>Authentication</b>: Verification of the identity of users in the system.
+2. <b>Authorisation</b>: Determining what a verified user is allowed to do in the system.
+3. <b>Rate limiting</b>: Controls the number of requests a client can make to the system API within a specific timeframe.
 
 ## CI/CD Pipeline
